@@ -1,0 +1,23 @@
+<resources>
+    <!-- Application name. -->
+    <string name="app_name">HelloAndroid</string>
+
+    <!-- Company name. -->
+    <string name="company_name">Udacity</string>
+
+    <!-- Company address. -->
+    <string name="company_address">2465 Latham St\nMountain View, CA 94043</string>
+
+    <!-- Company phone. -->
+    <string name="company_phone">650&#8211;555&#8211;5555</string>
+
+    <!-- Company URL. -->
+    <string name="company_url">udacity.com</string>
+
+    <!-- Keyboarding image. -->
+    <string name="image_keyboarding">keyboarding image</string>
+
+    <!-- Udacity image. -->
+    <string name="image_udacity">udacity image</string>
+
+</resources>

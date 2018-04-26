@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margin and padding in dp. -->
+    <dimen name="dp_margin_small">8dp</dimen>
+    <dimen name="dp_padding_standard">24dp</dimen>
+    <dimen name="dp_padding_large">48dp</dimen>
+
+    <!-- Text in sp. -->
+    <dimen name="sp_text_standard">24sp</dimen>
+</resources>

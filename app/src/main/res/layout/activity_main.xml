@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_main">
+
+    <LinearLayout style="@style/layout_linear">
+
+        <ImageView
+            android:id="@+id/photo"
+            style="@style/layout_image"
+            android:contentDescription="@string/image_keyboarding"
+            android:scaleType="centerCrop"
+            android:src="@drawable/computer_skills" />
+
+        <ImageView
+            android:id="@+id/logo"
+            style="@style/layout_image"
+            android:contentDescription="@string/image_udacity"
+            android:scaleType="fitCenter"
+            android:src="@drawable/udacity" />
+
+        <LinearLayout style="@style/layout_linear_company">
+
+            <TextView
+                android:id="@+id/company_name"
+                style="@style/layout_text"
+                android:layout_marginBottom="@dimen/dp_margin_small"
+                android:contentDescription="@string/company_name"
+                android:paddingEnd="@dimen/dp_padding_large"
+                android:paddingStart="@dimen/dp_padding_large"
+                android:text="@string/company_name" />
+
+            <TextView
+                android:id="@+id/company_address"
+                style="@style/layout_text"
+                android:autoLink="map"
+                android:contentDescription="@string/company_address"
+                android:drawablePadding="@dimen/dp_padding_standard"
+                android:drawableStart="@drawable/ic_place_black_24dp"
+                android:text="@string/company_address" />
+
+            <TextView
+                android:id="@+id/company_phone"
+                style="@style/layout_text"
+                android:autoLink="phone"
+                android:contentDescription="@string/company_phone"
+                android:drawablePadding="@dimen/dp_padding_standard"
+                android:drawableStart="@drawable/ic_phone_black_24dp"
+                android:text="@string/company_phone" />
+
+            <TextView
+                android:id="@+id/company_url"
+                style="@style/layout_text"
+                android:layout_marginTop="@dimen/dp_margin_small"
+                android:autoLink="web"
+                android:contentDescription="@string/company_url"
+                android:drawablePadding="@dimen/dp_padding_standard"
+                android:drawableStart="@drawable/ic_public_black_24dp"
+                android:text="@string/company_url" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
